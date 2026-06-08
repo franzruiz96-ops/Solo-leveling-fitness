@@ -1,0 +1,12 @@
+solo-leveling/
+├── index.html          ← entry point HTML
+├── vite.config.js      ← config de Vite con plugin React
+├── package.json        ← dependencias (React 18 + Vite 5)
+├── vercel.json         ← config de despliegue + SPA rewrites
+├── .gitignore
+├── README.md           ← instrucciones de deploy
+├── public/
+│   └── favicon.svg
+└── src/
+    ├── main.jsx        ← ReactDOM.createRoot
+    └── App.jsx         ← toda la app (limpiada y optimizada)
